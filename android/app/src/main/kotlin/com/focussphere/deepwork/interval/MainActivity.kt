@@ -1,4 +1,4 @@
-package com.pulsefit.workout.hiit
+package com.focussphere.deepwork.interval
 
 import io.flutter.embedding.android.FlutterActivity
 

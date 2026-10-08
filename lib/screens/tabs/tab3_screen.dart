@@ -37,7 +37,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
               decoration: BoxDecoration(
                 color: AppTheme.card,
                 borderRadius: BorderRadius.circular(16),
-                border: Border.all(color: AppTheme.primary.withOpacity(0.3)),
+                border: Border.all(color: AppTheme.primary.withValues(alpha: 0.3)),
               ),
               child: Column(
                 children: [
@@ -111,7 +111,7 @@ class _Tab3ScreenState extends State<Tab3Screen> {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text('Recorded Entry #$i', style: const TextStyle(color: AppTheme.textSecondary)),
-                        Text('+${i * 15 + t_idx * 6} score', style: const TextStyle(color: AppTheme.secondary, fontWeight: FontWeight.bold)),
+                        Text('+${i * 15 + 3 * 6} score', style: const TextStyle(color: AppTheme.secondary, fontWeight: FontWeight.bold)),
                       ],
                     ),
                     const Divider(height: 16, color: Colors.white12),
