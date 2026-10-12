@@ -42,7 +42,7 @@ class _Tab2ScreenState extends State<Tab2Screen> {
                       ),
                       Switch(
                         value: sounds[i]['active'] as bool,
-                        activeColor: AppTheme.primary,
+                        activeTrackColor: AppTheme.primary,
                         onChanged: (val) => setState(() => sounds[i]['active'] = val),
                       ),
                     ],
